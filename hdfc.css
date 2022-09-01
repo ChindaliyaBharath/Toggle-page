@@ -1,17 +1,15 @@
-body{
-    background-color: rebeccapurple;
-    color: mediumaquamarine;
-}
-.mydark{
+.mydark {
     background-color: rgb(146, 204, 83);
     color: cornflowerblue;
     text-align: center;
     font-size: 50px;
 }
-.jumbotron text-center{
+
+.jumbotron text-center {
     margin-top: 5%;
     margin-bottom: 9%;
 }
+
 .text-center {
     text-align: center;
     margin-left: 27%;
@@ -20,27 +18,36 @@ body{
     margin-top: -5%;
     word-spacing: 1px;
 }
+
+/* For javascript css */
+body {
+    background-color: white;
+    color: black
+}
+
+.mydark {
+    background-color: black;
+    color: white
+}
+
+/* Footer Page Css */
+
 footer {
     background-color: rgb(55, 40, 226);
     color: white;
     padding: 15px;
 
-  }
-  .fotDiv{
-    width:31%;
-    float:right;
+}
+
+.fotDiv {
+    width: 31%;
+    float: right;
     border-right: 2px solid white;
 }
-.container{
+
+.container {
     font: size 10px;
     margin-top: 1%;
 }
+
 /* javascript */
-body{
-    background-color:white;
-    color:black
-}
-.mydark{
-    background-color:black;
-    color:white
-}

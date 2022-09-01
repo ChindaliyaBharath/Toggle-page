@@ -6,31 +6,40 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="hdfc.css">
 </head>
-    <script>
-        const changeMode=()=>{
-        let mybody=document.body;
+<script>
+    const changeMode = () => {
+        let mybody = document.body;
         // mybody.classList.add('mydark')
         mybody.classList.toggle('mydark')
-        }
-    </script>
 
+
+    }
+
+</script>
+
+<!-- Javascript Event Used for toggle -->
 
 <body class="mydark">
     <p>Click on home button for login
-        <i class="glyphicon glyphicon-home"onclick="changeMode()">Click For Login Page</i>
- 
+        <i class="glyphicon glyphicon-home" onclick="changeMode()">Click For Login Page</i>
+        <i class="glyphicon glyphicon-home" onclick="changeMode()">Click For Login Page</i>
+
+
     </p>
     <!-- <i class="glyphicon glyphicon-home"onclick="changeMode()">Click For Login Page</i> -->
     <!-- <i class="glyphicon glyphicon-user"onclick="changeMode()">click me</i> -->
     <!-- <i class="glyphicon glyphicon-star"onclick="changeMode()">button</i> -->
     <!-- <i class="glyphicon glyphicon-user"onclick="changeMode()">click me</i> -->
 
+    <!-- For Header Section -->
     <div class="jumbotron">
         <center>
             <h3>Welcome to HDFC Bank NetBanking</h3>
             <img src="https://netbanking.hdfcbank.com/netbanking/gif/logo.png" class="width100" alt="" />
         </center>
     </div>
+
+    <!-- For Body Section -->
     <div class="jumbotron container">
         <h2>Login to NetBanking</h2>
         <div class="form-group row">
@@ -38,24 +47,26 @@
                 <label for="email">Customer ID/ User ID:</label>
                 <input type="email" class="form-control" id="email" placeholder="Enter your Customer ID/ User ID "
                     name="CUST ID">
-                    
-                    <!-- <button type="submit" class="btn btn-primary" href="/New folder/login.html">Continue</button> -->
-                   <!-- <a href="./New folder/login.html" class="text-white">Continue> </a> -->
-                   <!-- <button type="button" class="btn btn-primary"> -->
-                    <a href="/LOGIN/login.html" >
-                         <input type="submit" class="btn btn-primary" value="continue">
-                         
-                    </a>
+
+                <!-- <button type="submit" class="btn btn-primary" href="/New folder/login.html">Continue</button> -->
+                <!-- <a href="./New folder/login.html" class="text-white">Continue> </a> -->
+                <!-- <button type="button" class="btn btn-primary"> -->
+                <a href="/LOGIN/login.html">
+                    <input type="submit" class="btn btn-primary" value="continue">
+
+                </a>
                 <!-- </button> -->
-                 <div style="background-color:#e2effa;padding:10px 15px;">Dear Customer,<br/> Welcome to the new login page of HDFC Bank NetBanking. <br/> Its lighter look and feel is designed to give you the best possible user experience. Please continue to login using your customer ID and password.</div>
-                    <div class="container">
+                <div style="background-color:#e2effa;padding:10px 15px;">Dear Customer,<br /> Welcome to the new login
+                    page of HDFC Bank NetBanking. <br /> Its lighter look and feel is designed to give you the best
+                    possible user experience. Please continue to login using your customer ID and password.</div>
+                <div class="container">
                     <div>Don't have a HDFC Bank Savings Account?</div>
- 
+
                     <span>Credit Card only? Login here</span>
-    
+
                     <div>
-                        <span >Prepaid Card only ? Login here
-                        Retail Loan only? Login here</span>
+                        <span>Prepaid Card only ? Login here
+                            Retail Loan only? Login here</span>
                     </div>
                 </div>
 
@@ -65,7 +76,7 @@
                     <div><span class="color666">Your security is of utmost
                             importance.</span>
                         <div>
-                                
+
                         </div>
 
 
@@ -74,18 +85,19 @@
                                 <span>Register Now </a>
                                     for a host of convenient features</span>
                             </div>
-                            <div >We have added a host of new features!</div>
-								<div >
-                                     <span >You can now do so much
-										more:</span> 
-                                    </div>
-                                    <div>
-                                         <span>
-										<ul>
-											Anywhere access through Desktop or mobile
-										<span>Enhanced security measures</span>
-										</ul>
-									</span> </div>
+                            <div>We have added a host of new features!</div>
+                            <div>
+                                <span>You can now do so much
+                                    more:</span>
+                            </div>
+                            <div>
+                                <span>
+                                    <ul>
+                                        Anywhere access through Desktop or mobile
+                                        <span>Enhanced security measures</span>
+                                    </ul>
+                                </span>
+                            </div>
 
                         </div>
                     </div>
@@ -95,6 +107,7 @@
         </div>
     </div>
 
+    <!-- For Footer Section -->
     <footer class="container-fluid">
         <h3>&copy; Copyright HDFC Bank Ltd.</h3>
         <!-- <div>Terms and Conditions</div> -->
